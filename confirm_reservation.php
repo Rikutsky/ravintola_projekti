@@ -13,12 +13,12 @@ $name = $_POST["name"];
 $contact = $_POST["contact"];
 $num_guests = $_POST["num_guests"];
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "varaukset_db";
+$dbHost = $_ENV['DB_HOST'];
+$dbUser = $_ENV['DB_USER'];
+$dbPass = $_ENV['DB_PASSWORD'];
+$dbName = $_ENV['DB_NAME'];
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($dbHost, $dbUser, $dbPass, $dbName);
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
