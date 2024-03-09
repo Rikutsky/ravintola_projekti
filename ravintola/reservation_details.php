@@ -59,13 +59,13 @@ if (!isset($_SESSION["reservation_date"]) || !isset($_SESSION["reservation_time"
 <h2>Anna yhteystietosi</h2><br>
     <form class="text-sm dark:text-slate-400 font-semibold justify-center text-center" action="confirm_reservation.php" method="POST">
         <label for="name">Nimi:</label>
-        <input type="text" id="name" name="name" required class="bg-slate-700 border border-gray-300"><br><br>
+        <input type="text" id="name" name="name" maxlength="30" required class="bg-slate-700 border border-gray-300"><br><br>
         
         <label for="contact">Puhelinnumero:</label>
-        <input type="text" id="contact" name="contact" required class="bg-slate-700 border border-gray-300"><br><br>
+        <input type="text" id="contact" name="contact" maxlength="13" required class="bg-slate-700 border border-gray-300"><br><br>
         
         <label for="num_guests">Ruokailijoiden määrä:</label>
-        <input type="number" id="num_guests" name="num_guests" min="1" required class="bg-slate-700 border border-gray-300"><br><br>
+        <input type="number" id="num_guests" name="num_guests" min="1" max="8" maxlength="1" required class="bg-slate-700 border border-gray-300"><br><br>
         
         <input class="relative bg-slate-900 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 
         focus:ring-offset-2 text-sm text-white font-semibold h-12 px-6 rounded-lg dark:bg-slate-700 dark:hover:bg-slate-600" type="submit" name="submit" value="Submit Reservation">
