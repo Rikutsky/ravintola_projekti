@@ -21,7 +21,7 @@
     <div class="max-w-7xl mx-auto px-4">
         <div class="flex justify-between">
     <div>
-        <a href="/ravintola/index.php" class="flex items-center text-white text-xl">
+        <a href="/index.php" class="flex items-center text-white text-xl">
             <img src="kosmo.png" alt="Logo" class="h-12 w-12 mr-2">
     </div>
     <div class="hidden md:flex">
