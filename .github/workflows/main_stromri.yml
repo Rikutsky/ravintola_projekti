@@ -63,4 +63,4 @@ jobs:
           app-name: 'stromri'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5DDDEEB8D77A439697F9FBEC62E1223E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_374E15C78FFC4DC08B7AD24B1F8E499A }}
