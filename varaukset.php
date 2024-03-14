@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class=dark lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,9 +15,9 @@
 </head>
 
 
-<body class="antialiased text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900">
+<body class="antialiased text-slate-500 text-slate-400 bg-white bg-slate-900">
 <div class="sticky top-0 z-40 w-full backdrop-blur flex-none border-b border-slate-200/5">
-<nav class="text-sm leading-6 font-bold dark:text-slate-200 py-4">
+<nav class="text-sm leading-6 font-bold text-slate-200 py-4">
     <div class="max-w-7xl mx-auto px-4">
         <div class="flex justify-between">
     <div>
@@ -44,19 +44,19 @@
 </nav>
 </div>
 
-<div id="varaukset" class="text-3xl sm:text-4xl font-extrabold dark:text-slate-200 py-4 justify-center text-center">
+<div id="varaukset" class="text-3xl sm:text-4xl font-extrabold text-slate-200 py-4 justify-center text-center">
     <h2>Varaa pöytä</h2>
-<div class="text-sm dark:text-slate-400 font-semibold justify-center text-center">
+<div class="text-sm text-slate-400 font-semibold justify-center text-center">
 <br>
 
-<p class="mt-2 text-lg dark:text-slate-400">Varaa pöytä helposti 1-8 hengelle Ravintola Kosmosta käyttämällä alla olevaa varausjärjestelmää. <br><br>
+<p class="mt-2 text-lg text-slate-400">Varaa pöytä helposti 1-8 hengelle Ravintola Kosmosta käyttämällä alla olevaa varausjärjestelmää. <br><br>
 Suuremmille ryhmille tai jos sinulla on kysyttävää tai erikoistoiveita, ole yhteydessä suoraan myyntiimme: <br>
 myynti@ravintolakosmo.fi tai 050 609 5010.<br><br>
 Varmista ajankohtainen varaustilanne soittamalla, mikäli haluamasi ajankohta näyttää täyteenvaratulta – <br>kaikki pöydät eivät ole myynnissä varausjärjestelmän kautta.<br><br>
 
 Valitse varauskalenterista päivämäärä ja kellonaika, jonka jälkeen "Continue" näppäintä painamalla sivu vie sinut eteenpäin lisäämään yhteystietosi.</p>
 <br><br>
-<p class="text-3xl sm:text-4xl font-extrabold dark:text-slate-200">
+<p class="text-3xl sm:text-4xl font-extrabold text-slate-200">
     Varauskalenteri
 </p>
 <br>
@@ -93,7 +93,7 @@ Valitse varauskalenterista päivämäärä ja kellonaika, jonka jälkeen "Contin
             <option value="21:00">21:00</option>
             <option value="21:30">21:30</option></select><br><br>
         <button type="submit" name="submit" class="relative bg-slate-900 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 
-        focus:ring-offset-2 text-sm text-white font-semibold h-12 px-6 rounded-lg dark:bg-slate-700 dark:hover:bg-slate-600">
+        focus:ring-offset-2 text-sm text-white font-semibold h-12 px-6 rounded-lg bg-slate-700 hover:bg-slate-600">
             Continue
         </button>
     </form>

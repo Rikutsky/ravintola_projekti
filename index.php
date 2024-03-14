@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class=dark lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,9 +15,9 @@
 </head>
 
 
-<body class="antialiased text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900">
+<body class="antialiased text-slate-500 text-slate-400 bg-white bg-slate-900">
 <div class="sticky top-0 z-40 w-full backdrop-blur flex-none border-b border-slate-200/5">
-<nav class="text-sm leading-6 font-bold dark:text-slate-200 py-4">
+<nav class="text-sm leading-6 font-bold text-slate-200 py-4">
     <div class="max-w-7xl mx-auto px-4">
         <div class="flex justify-between">
     <div>
@@ -45,7 +45,7 @@
 </div>
 
 
-<div id="index" class="text-3xl sm:text-4xl font-extrabold dark:text-slate-200 py-4 justify-center text-center">
+<div id="index" class="text-3xl sm:text-4xl font-extrabold text-slate-200 py-4 justify-center text-center">
     <h1>Tervetuloa kosmoon!</h1>
 </div>
 

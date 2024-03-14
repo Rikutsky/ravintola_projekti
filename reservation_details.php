@@ -11,7 +11,7 @@ if (!isset($_SESSION["reservation_date"]) || !isset($_SESSION["reservation_time"
 // Proceed with reservation details form
 ?>
 <!DOCTYPE html>
-<html class=dark lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,9 +27,9 @@ if (!isset($_SESSION["reservation_date"]) || !isset($_SESSION["reservation_time"
 </head>
 
 
-<body class="antialiased text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900">
+<body class="antialiased text-slate-500 text-slate-400 bg-white bg-slate-900">
 <div class="sticky top-0 z-40 w-full backdrop-blur flex-none border-b border-slate-200/5">
-<nav class="text-sm leading-6 font-bold dark:text-slate-200 py-4">
+<nav class="text-sm leading-6 font-bold text-slate-200 py-4">
     <div class="max-w-7xl mx-auto px-4">
         <div class="flex justify-between">
     <div>
@@ -55,9 +55,9 @@ if (!isset($_SESSION["reservation_date"]) || !isset($_SESSION["reservation_time"
         </div>
 </nav>
 </div>
-<div class="text-3xl sm:text-4xl font-extrabold dark:text-slate-200 py-4 justify-center text-center">
+<div class="text-3xl sm:text-4xl font-extrabold text-slate-200 py-4 justify-center text-center">
 <h2>Anna yhteystietosi</h2><br>
-    <form class="text-sm dark:text-slate-400 font-semibold justify-center text-center" action="confirm_reservation.php" method="POST">
+    <form class="text-sm text-slate-400 font-semibold justify-center text-center" action="confirm_reservation.php" method="POST">
         <label for="name">Nimi:</label>
         <input type="text" id="name" name="name" maxlength="30" required class="bg-slate-700 border border-gray-300"><br><br>
         
@@ -68,7 +68,7 @@ if (!isset($_SESSION["reservation_date"]) || !isset($_SESSION["reservation_time"
         <input type="number" id="num_guests" name="num_guests" min="1" max="8" maxlength="1" required class="bg-slate-700 border border-gray-300"><br><br>
         
         <input class="relative bg-slate-900 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 
-        focus:ring-offset-2 text-sm text-white font-semibold h-12 px-6 rounded-lg dark:bg-slate-700 dark:hover:bg-slate-600" type="submit" name="submit" value="Submit Reservation">
+        focus:ring-offset-2 text-sm text-white font-semibold h-12 px-6 rounded-lg bg-slate-700 hover:bg-slate-600" type="submit" name="submit" value="Submit Reservation">
     </form>
 </div>
 

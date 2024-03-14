@@ -40,7 +40,7 @@ session_destroy();
 ?>
 
 <!DOCTYPE html>
-<html class=dark lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,9 +53,9 @@ session_destroy();
 
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="antialiased text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900">
+<body class="antialiased text-slate-500 text-slate-400 bg-white bg-slate-900">
 <div class="sticky top-0 z-40 w-full backdrop-blur flex-none border-b border-slate-200/5">
-<nav class="text-sm leading-6 font-bold dark:text-slate-200 py-4">
+<nav class="text-sm leading-6 font-bold text-slate-200 py-4">
     <div class="max-w-7xl mx-auto px-4">
         <div class="flex justify-between">
     <div>
@@ -81,17 +81,17 @@ session_destroy();
         </div>
 </nav>
 </div>
-<div class="text-3xl sm:text-4xl font-extrabold dark:text-slate-200 py-4 justify-center text-center">
+<div class="text-3xl sm:text-4xl font-extrabold text-slate-200 py-4 justify-center text-center">
     <h2>Varauksen varmistus</h2>
-    <p class="mt-2 text-lg dark:text-slate-400 font-semibold">Päivämäärä: <?php echo $reservation_date; ?></p>
-    <p class="mt-2 text-lg dark:text-slate-400 font-semibold">Aika: <?php echo $reservation_time; ?></p>
-    <p class="mt-2 text-lg dark:text-slate-400 font-semibold">Nimi: <?php echo $name; ?></p>
-    <p class="mt-2 text-lg dark:text-slate-400 font-semibold">Yhteystiedot: <?php echo $contact; ?></p>
-    <p class="mt-2 text-lg dark:text-slate-400 font-semibold">Ruokailijoiden määrä: <?php echo $num_guests; ?></p>
-    <p class="mt-2 text-lg dark:text-slate-400 font-semibold">Kiitos varauksestasi!</p>
+    <p class="mt-2 text-lg text-slate-400 font-semibold">Päivämäärä: <?php echo $reservation_date; ?></p>
+    <p class="mt-2 text-lg text-slate-400 font-semibold">Aika: <?php echo $reservation_time; ?></p>
+    <p class="mt-2 text-lg text-slate-400 font-semibold">Nimi: <?php echo $name; ?></p>
+    <p class="mt-2 text-lg text-slate-400 font-semibold">Yhteystiedot: <?php echo $contact; ?></p>
+    <p class="mt-2 text-lg text-slate-400 font-semibold">Ruokailijoiden määrä: <?php echo $num_guests; ?></p>
+    <p class="mt-2 text-lg text-slate-400 font-semibold">Kiitos varauksestasi!</p>
 
     <a class="relative bg-slate-900 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 
-        focus:ring-offset-2 text-sm text-white font-semibold h-12 px-6 rounded-lg dark:bg-slate-700 dark:hover:bg-slate-600 cursor-pointer" href="index.php">&laquo; Takaisin</a>
+        focus:ring-offset-2 text-sm text-white font-semibold h-12 px-6 rounded-lg bg-slate-700 hover:bg-slate-600 cursor-pointer" href="index.php">&laquo; Takaisin</a>
 
     
 <br><br>
